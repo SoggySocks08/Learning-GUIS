@@ -60,7 +60,7 @@ class App:
 
 # frame2 for name entry
     self.frame2 = Frame(self.root)
-    self.frame1.grid(row=0,column=0)
+    self.frame2.grid(row=0,column=0)
 
   def create_frame1_buttons(self):
 # dictionary contains all button objects corresponding to each menu item
@@ -206,4 +206,5 @@ class App:
 
 pos = Tk()
 app = App(pos)
+
 pos.mainloop()
