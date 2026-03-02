@@ -20,8 +20,6 @@ Labels
 # window = Tk()
 # window.geometry('420x420')
 
-# icon = PhotoImage(file='c:\\Users\\Devyn\\OneDrive\\Pictures\\Minecraftpfp.png') #defines icon as photo (the image is a path, further research needed for file names)
-# window.iconphoto(True, icon) # changes the window's icon to the photo
 
 # label = Label(window, 
 #               text = "Hello World",  #text in the label
@@ -121,5 +119,6 @@ entry.config(font=('Arial', 75),
             #  show='*')
 # entry.insert(0, 'Spongebob')
 entry.pack()
+
 
 window.mainloop()
